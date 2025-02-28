@@ -6,7 +6,19 @@ namespace SmoothOperator
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            //exercicio 1
+            Console.WriteLine("Insere numero inteiro: ");
+            
+            string str = Console.ReadLine();
+            int n = int.Parse(str);
+
+            
+            Convert.ToSByte(n);
+
+           Console.WriteLine(--n);
+           Console.WriteLine(++n);
+
+
         }
     }
 }
