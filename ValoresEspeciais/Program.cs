@@ -30,6 +30,29 @@ namespace ValoresEspeciais
             Console.WriteLine(y);
             Console.WriteLine(h1);
 
+
+            //Exercicio 7
+            int p = short.MaxValue;
+            Console.WriteLine((short) (p+1));
+
+            double q = 2 * double.MaxValue;
+            Console.WriteLine(q);
+
+            double a = double.MaxValue + 1;
+            Console.WriteLine(a);
+
+
+            float f1, f2;
+
+            f1 = f2 = 10000.0f;
+
+            Console.WriteLine(f1 ==f2 + 0.0001f);
+
+
+
+
+
+
         }
     }
 }
